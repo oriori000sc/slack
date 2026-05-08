@@ -1,0 +1,10 @@
+{
+  "name": "slack-archive-ingestor",
+  "type": "module",
+  "dependencies": {
+    "@slack/bolt": "^3.17.0",
+    "@slack/web-api": "^7.6.0",
+    "better-sqlite3": "^11.5.0",
+    "node-fetch": "^3.3.2"
+  }
+}

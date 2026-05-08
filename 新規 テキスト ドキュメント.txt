@@ -1,0 +1,62 @@
+<<<<<<< HEAD
+dockerDesktop起動
+cd "...\slack-archive"
+docker compose up -d
+docker compose ps
+
+止める
+docker compose down
+
+http://localhost:3000/channels
+http://<あなたのPCのIPv4アドレス>:3000/channels
+
+ngrok config add-authtoken 39huHcxyQetpUWe7QW3N4sxfI1N_2G5ncPmZjNifkxYKqbihe
+39huHcxyQetpUWe7QW3N4sxfI1N_2G5ncPmZjNifkxYKqbihe
+
+・ngrokポート開通
+ngrok http 3000
+マイクラ
+ngrok tcp 25565
+
+〇ssh接続
+ホスト側
+・管理者権限powershell
+Start-Process powershell -Verb RunAs
+・sshrunning方法
+Get-Service sshd
+・ユーザー名確認
+whoami
+
+# 基本形
+=======
+dockerDesktop起動
+cd "...\slack-archive"
+docker compose up -d
+docker compose ps
+
+止める
+docker compose down
+
+http://localhost:3000/channels
+http://<あなたのPCのIPv4アドレス>:3000/channels
+
+ngrok config add-authtoken 39huHcxyQetpUWe7QW3N4sxfI1N_2G5ncPmZjNifkxYKqbihe
+39huHcxyQetpUWe7QW3N4sxfI1N_2G5ncPmZjNifkxYKqbihe
+
+・ngrokポート開通
+ngrok http 3000
+マイクラ
+ngrok tcp 25565
+
+〇ssh接続
+ホスト側
+・管理者権限powershell
+Start-Process powershell -Verb RunAs
+・sshrunning方法
+Get-Service sshd
+・ユーザー名確認
+whoami
+
+# 基本形
+>>>>>>> 591155d8fcfe9721ed04ba4550f69aa0d11c38e4
+ssh ユーザー名@IPアドレス

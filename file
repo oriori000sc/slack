@@ -1,0 +1,62 @@
+  .env
+│  docker-compose.yml
+│  file
+│  新規 テキスト ドキュメント.txt
+│
+├─data
+│  │  app.db
+│  │  app.db-shm
+│  │  app.db-wal
+│  │
+│  └─files
+│      ├─C0AE5BM385Q
+│      │      スクリーンショット 2023-07-16 210727.png
+│      │
+│      └─C0AEZL5NW1W
+│              IMG_6526.jpg
+│              スクリーンショット 2023-07-16 212506.png
+│
+├─ingestor
+│  │  Dockerfile
+│  │  package.json
+│  │
+│  └─src
+│          backfill.js
+│          files.js
+│          index.js
+│          schema.sql
+│          slack.js
+│          store.js
+│
+└─web
+    │  Dockerfile
+    │  next.config.js
+    │  package.json
+    │
+    └─src
+        ├─app
+        │  │  layout.js
+        │  │  page.js
+        │  │
+        │  ├─api
+        │  │  ├─channel
+        │  │  │  └─[id]
+        │  │  │      └─messages
+        │  │  │              route.js
+        │  │  │
+        │  │  ├─channels
+        │  │  │      route.js
+        │  │  │
+        │  │  └─files
+        │  │      └─[...path]
+        │  │              route.js
+        │  │
+        │  ├─channel
+        │  │  └─[id]
+        │  │          page.js
+        │  │
+        │  └─channels
+        │          page.js
+        │
+        └─lib
+                db.js
